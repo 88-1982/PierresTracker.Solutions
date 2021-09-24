@@ -13,3 +13,5 @@ namespace PierresTracker.Controllers
       List<Vendor> allVendors = Vendor.GetAll();
       return View(allVendors);
     }
+  }
+}
