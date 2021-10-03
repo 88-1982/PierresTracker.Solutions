@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using PierresTracker.Models;
 using System;
 
-namespace PierresTracker.Test
+namespace PierresTracker.Tests
 {
   [TestClass]
   public class OrderTests : IDisposable
   {
-    public void Dispose()  
-  {
-    Order.ClearAll();
-  }
+    public void Dispose()
+    {
+      Order.ClearAll();
+    }
 
-  [TestMethod]
-  public void OrderConstructor_CreatInstanceOfOrder_Order()
-  {
-    DateTime localDate = DateTime.Now;
-    Order newOrder = new Order ("Cannoli,"45 Cannolis",60, localDate);
-    Assert.AreEqual(typeof(Order), newOrder.getType());
-  }
+    [TestMethod]
+    public void OrderConstructor_CreateInstanceOfOrder_Order()
+    {
+      DateTime localDate = DateTime.Now;
+      Order newOrder = new Order("Cannoli", "45 Cannolis", 60, localDate);
+      Assert.AreEqual(typeof(Order), newOrder.GetType());
+    }
+
     [TestMethod]
     public void GetTitle_ReturnsTitle_String()
     {

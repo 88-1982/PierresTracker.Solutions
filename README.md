@@ -1,6 +1,5 @@
 # PierresTracker.Solutions
 
-## A console application for PierresTracker.Solutions 
 
 # By DeAunte Hall
 
