@@ -21,8 +21,10 @@ Use this website to create and store a list a vendors your business has relation
 
 
 # Testing
-If you have installed this repo and would like to utilize the testing, follow these steps:
-To Navigate to the testing directory from the directory you downloaded the program to enter cd PierresBakery.Solution/BakeryTests'. One in this directory, enter 'dotnet restore' to install the dependencies required to utilize the testing. Lastly, enter 'dotnet test' to run the tests.
+To run MS tests you will need to navigate to the PierresTracker.Tests folder (cd PierresTracker.Tests) in the command line and then run dotnet restore.
+You should now see 'obj' folders in both the PierresTracker.Tests folder and PierresTracker folder.
+At this point you should be able to successfully run dotnet test in the command line (keep in mind you should still be in the PierresTracker.Tests folder).
+
 
 # Known Bugs
 	•No Known bugs
